@@ -10,16 +10,29 @@ text-align:center;
 .second{
 color:grey;
 text-align:left;
+display:none;
 }
 .third{
 color:red;
 background-color:yellow;
 }
+[title~=dog]{
+margin:25px 50px 75px 100px;
+border: 5px solid yellow;
+}
+img{
+position: absolute;
+right: 0px;
+top: 0px;
+z-index: -1;
+width: 300px;
+height: 300px;
+}
 </style>
 <title>Mohan</title>
 </head>
 <body>
-<img src="photo.png" alt="photo of dogs" style="float:right;width:200px;height:200px;">
+<img src="photo.png" alt="photo of dogs" title="dog">
 <h3>Name:Jasti Mohan Sai<br>
     College:Vignan University<br>
 	Stream:<a href="courses.html#C">EEE</a></h3>

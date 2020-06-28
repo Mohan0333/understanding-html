@@ -12,42 +12,46 @@ background-color: #eee;
 table tr:nth-child(odd){
 background-color: #fff;
 }
-th,td{
+.L{
 padding: 5px;
 text-align: left;
+}
+.R{
+padding: 5px;
+text-align: right;
 }
 </style>
 </head>
 <body>
-<table style="width:100%">
+<table style="width:100%;border:1px solid black;outline-style: dotted;outline-color: red">
 <caption style="font-size:175%; color:red">Semester Marks</caption>
 <tr>
-<th>Subject</th>
-<th>Marks</th>
+<th class="L">Subject</th>
+<th class="R">Marks</th>
 </tr>
 <tr>
-<td>Engineering Chemistry</td>
-<td>85</td>
+<td class="L">Engineering Chemistry</td>
+<td class="R">85</td>
 </tr>
 <tr>
-<td>Workshop</td>
-<td>83</td>
+<td class="L">Workshop</td>
+<td class="R">83</td>
 </tr>
 <tr>
-<td>Data Structures</td>
-<td>89</td>
+<td class="L">Data Structures</td>
+<td class="R">89</td>
 </tr>
 <tr>
-<td>Basics of Engineering and Electronics Engineering</td>
-<td>87</td>
+<td class="L">Basics of Engineering and Electronics Engineering</td>
+<td class="R">87</td>
 </tr>
 <tr>
-<td>Engineering Mathematics</td>
-<td>87</td>
+<td class="L">Engineering Mathematics</td>
+<td class="R">87</td>
 </tr>
 <tr>
-<td>Engish proficiency& communication skills</td>
-<td>85</td>
+<td class="L">Engish proficiency& communication skills</td>
+<td class="R">85</td>
 </tr>
 </table>
 </body>

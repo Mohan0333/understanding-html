@@ -1,19 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+body{
+background-image:url("background.jpeg");
+background-repeat:no-repeat;
+background-size:cover;
+font-family:serif;
+font-style:italic;
+}
+h1{
+color:red;
+}
+ul.a{
+list-style-type:circle;
+}
+ul.b{
+list-style-type:square;
+}
+ol.c{
+list-style-type:upper-roman;
+}
+ul{
+background:#ff9999;
+padding: 20px;
+}
+ul li{
+background: #ffe5e5;
+padding:5px;
+margin-left:35px;
+}
+.x{
+list-style-type: none;
+text-decoration: none;
+margin:0;
+padding:0;
+overflow: hidden;
+background-color: #333;
+}
+.y,.z{
+float: left;
+border-right: 1px solid #bbb;
+}
+.y,.z:last-child{
+border-right:none;
+}
+.y,.z{
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+.y,.z:hover:not(.z){
+background-color:#111;
+}
+.z{
+background-color:#4CAF50;
+}
+</style>
 <title>courses</title>
 </head>
 <body>
+<ul class="x">
+<li class="z"><a href="courses.html">Home</a></li>
+<li class="y"><a href="registration.html">Register</a></li>
+<li class="y"><a href="input_form.html">Personal Details</a></li>
+</ul>
 <h1 id="C">List of courses</h1>
-<ol>
+<ol class="c">
 <li>c programming</li>
-<ul>
+<ul class="a">
 <li>structure of c program</li>
 <li>functions</li>
 <li>Arrays</li>
 </ul>
 <li>programming in java</li>
-<ul>
+<ul class="b">
 <li>structure of java program</li>
 <li>interface</li>
 <li>exception handling</li>
@@ -21,7 +84,7 @@
 <li>appletviewer</li>
 </ul>
 <li>html</li>
-<ul>
+<ul class="c">
 <li>basics of html</li>
 <li>adding images to html file</li>
 <li>address linking</li>
